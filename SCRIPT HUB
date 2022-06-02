@@ -90,15 +90,15 @@ Jailbreak.TextSize = 14.000
 
 -- Scripts:
 
-local function URDBM_fake_script() -- SILENTAIMPF.LocalScript 
+local function TUVWY_fake_script() -- SILENTAIMPF.LocalScript 
 	local script = Instance.new('LocalScript', SILENTAIMPF)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/ph_hub.lua", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))
 	end)
 end
-coroutine.wrap(URDBM_fake_script)()
-local function WBDDN_fake_script() -- Frame.Drag 
+coroutine.wrap(TUVWY_fake_script)()
+local function ZMWVXXM_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -141,8 +141,8 @@ local function WBDDN_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(WBDDN_fake_script)()
-local function BZYZMC_fake_script() -- HTTPSPYSCRIPT.LocalScript 
+coroutine.wrap(ZMWVXXM_fake_script)()
+local function DSBE_fake_script() -- HTTPSPYSCRIPT.LocalScript 
 	local script = Instance.new('LocalScript', HTTPSPYSCRIPT)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -151,20 +151,20 @@ local function BZYZMC_fake_script() -- HTTPSPYSCRIPT.LocalScript
 	
 	
 end
-coroutine.wrap(BZYZMC_fake_script)()
-local function FNPVIFZ_fake_script() -- JailbirdSilentAIm.LocalScript 
+coroutine.wrap(DSBE_fake_script)()
+local function GHNR_fake_script() -- JailbirdSilentAIm.LocalScript 
 	local script = Instance.new('LocalScript', JailbirdSilentAIm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
 	end)
 end
-coroutine.wrap(FNPVIFZ_fake_script)()
-local function WMSBZSK_fake_script() -- Jailbreak.LocalScript 
+coroutine.wrap(GHNR_fake_script)()
+local function DLPAU_fake_script() -- Jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', Jailbreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
 	end)
 end
-coroutine.wrap(WMSBZSK_fake_script)()
+coroutine.wrap(DLPAU_fake_script)()
