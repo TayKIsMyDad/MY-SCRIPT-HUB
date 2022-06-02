@@ -1,4 +1,4 @@
-local ScreenGui = Instance.new("ScreenGui")
+local CHOPPAHUB = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local NAME = Instance.new("TextLabel")
 local SILENTAIMPF = Instance.new("TextButton")
@@ -6,15 +6,17 @@ local HTTPSPYSCRIPT = Instance.new("TextButton")
 local JailbirdSilentAIm = Instance.new("TextButton")
 local DISCLAIMER = Instance.new("TextLabel")
 local Discord = Instance.new("TextBox")
+local Jailbreak = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+CHOPPAHUB.Name = "CHOPPA HUB"
+CHOPPAHUB.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+CHOPPAHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Frame.Parent = ScreenGui
+Frame.Parent = CHOPPAHUB
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.Position = UDim2.new(0.328346431, 0, 0.296781898, 0)
+Frame.Position = UDim2.new(0.528346419, 0, 0.489868909, 0)
 Frame.Size = UDim2.new(0, 420, 0, 282)
 
 NAME.Name = "NAME"
@@ -76,17 +78,27 @@ Discord.Text = "Having issues? DM 6ackshots 6148"
 Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
 Discord.TextSize = 14.000
 
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Frame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+Jailbreak.Position = UDim2.new(0.65476191, 0, 0.315602839, 0)
+Jailbreak.Size = UDim2.new(0, 145, 0, 47)
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "JAILBREAK SCRIPT"
+Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.TextSize = 14.000
+
 -- Scripts:
 
-local function HCOOL_fake_script() -- SILENTAIMPF.LocalScript 
+local function URDBM_fake_script() -- SILENTAIMPF.LocalScript 
 	local script = Instance.new('LocalScript', SILENTAIMPF)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/skatbr/Roblox-Releases/main/ph_hub.lua", true))()
 	end)
 end
-coroutine.wrap(HCOOL_fake_script)()
-local function YXYCC_fake_script() -- Frame.Drag 
+coroutine.wrap(URDBM_fake_script)()
+local function WBDDN_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -129,8 +141,8 @@ local function YXYCC_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(YXYCC_fake_script)()
-local function HHZHVV_fake_script() -- HTTPSPYSCRIPT.LocalScript 
+coroutine.wrap(WBDDN_fake_script)()
+local function BZYZMC_fake_script() -- HTTPSPYSCRIPT.LocalScript 
 	local script = Instance.new('LocalScript', HTTPSPYSCRIPT)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -139,12 +151,20 @@ local function HHZHVV_fake_script() -- HTTPSPYSCRIPT.LocalScript
 	
 	
 end
-coroutine.wrap(HHZHVV_fake_script)()
-local function MOSSKZ_fake_script() -- JailbirdSilentAIm.LocalScript 
+coroutine.wrap(BZYZMC_fake_script)()
+local function FNPVIFZ_fake_script() -- JailbirdSilentAIm.LocalScript 
 	local script = Instance.new('LocalScript', JailbirdSilentAIm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
 	end)
 end
-coroutine.wrap(MOSSKZ_fake_script)() 
+coroutine.wrap(FNPVIFZ_fake_script)()
+local function WMSBZSK_fake_script() -- Jailbreak.LocalScript 
+	local script = Instance.new('LocalScript', Jailbreak)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
+	end)
+end
+coroutine.wrap(WMSBZSK_fake_script)()
