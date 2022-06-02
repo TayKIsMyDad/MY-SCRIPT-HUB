@@ -1,12 +1,12 @@
 local CHOPPAHUB = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local NAME = Instance.new("TextLabel")
-local SILENTAIMPF = Instance.new("TextButton")
 local HTTPSPYSCRIPT = Instance.new("TextButton")
 local JailbirdSilentAIm = Instance.new("TextButton")
 local DISCLAIMER = Instance.new("TextLabel")
 local Discord = Instance.new("TextBox")
 local Jailbreak = Instance.new("TextButton")
+local PFSILENAIM = Instance.new("TextButton")
 
 --Properties:
 
@@ -27,16 +27,6 @@ NAME.Font = Enum.Font.SourceSans
 NAME.Text = "Choppas Exploit Hub"
 NAME.TextColor3 = Color3.fromRGB(255, 255, 255)
 NAME.TextSize = 30.000
-
-SILENTAIMPF.Name = "SILENT AIM PF"
-SILENTAIMPF.Parent = Frame
-SILENTAIMPF.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-SILENTAIMPF.Position = UDim2.new(0, 0, 0.315602839, 0)
-SILENTAIMPF.Size = UDim2.new(0, 161, 0, 47)
-SILENTAIMPF.Font = Enum.Font.SourceSans
-SILENTAIMPF.Text = "PHANTOM FORCES SILENT AIM"
-SILENTAIMPF.TextColor3 = Color3.fromRGB(255, 255, 255)
-SILENTAIMPF.TextSize = 14.000
 
 HTTPSPYSCRIPT.Name = "HTTP SPY SCRIPT"
 HTTPSPYSCRIPT.Parent = Frame
@@ -88,17 +78,19 @@ Jailbreak.Text = "JAILBREAK SCRIPT"
 Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
 Jailbreak.TextSize = 14.000
 
+PFSILENAIM.Name = "PF SILEN AIM"
+PFSILENAIM.Parent = Frame
+PFSILENAIM.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+PFSILENAIM.Position = UDim2.new(0, 0, 0.315602839, 0)
+PFSILENAIM.Size = UDim2.new(0, 161, 0, 47)
+PFSILENAIM.Font = Enum.Font.SourceSans
+PFSILENAIM.Text = "PHANTOM FORCES SILENT AIM"
+PFSILENAIM.TextColor3 = Color3.fromRGB(255, 255, 255)
+PFSILENAIM.TextSize = 14.000
+
 -- Scripts:
 
-local function TUVWY_fake_script() -- SILENTAIMPF.LocalScript 
-	local script = Instance.new('LocalScript', SILENTAIMPF)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))
-	end)
-end
-coroutine.wrap(TUVWY_fake_script)()
-local function ZMWVXXM_fake_script() -- Frame.Drag 
+local function HWJO_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -141,8 +133,8 @@ local function ZMWVXXM_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(ZMWVXXM_fake_script)()
-local function DSBE_fake_script() -- HTTPSPYSCRIPT.LocalScript 
+coroutine.wrap(HWJO_fake_script)()
+local function BMWJ_fake_script() -- HTTPSPYSCRIPT.LocalScript 
 	local script = Instance.new('LocalScript', HTTPSPYSCRIPT)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -151,20 +143,30 @@ local function DSBE_fake_script() -- HTTPSPYSCRIPT.LocalScript
 	
 	
 end
-coroutine.wrap(DSBE_fake_script)()
-local function GHNR_fake_script() -- JailbirdSilentAIm.LocalScript 
+coroutine.wrap(BMWJ_fake_script)()
+local function HDRGG_fake_script() -- JailbirdSilentAIm.LocalScript 
 	local script = Instance.new('LocalScript', JailbirdSilentAIm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
 	end)
 end
-coroutine.wrap(GHNR_fake_script)()
-local function DLPAU_fake_script() -- Jailbreak.LocalScript 
+coroutine.wrap(HDRGG_fake_script)()
+local function JWLVPWZ_fake_script() -- Jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', Jailbreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
 	end)
 end
-coroutine.wrap(DLPAU_fake_script)()
+coroutine.wrap(JWLVPWZ_fake_script)()
+local function VGJJ_fake_script() -- PFSILENAIM.LocalScript 
+	local script = Instance.new('LocalScript', PFSILENAIM)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))()
+	end)
+	
+	
+end
+coroutine.wrap(VGJJ_fake_script)()
