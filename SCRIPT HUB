@@ -7,6 +7,8 @@ local DISCLAIMER = Instance.new("TextLabel")
 local Discord = Instance.new("TextBox")
 local Jailbreak = Instance.new("TextButton")
 local PFSILENAIM = Instance.new("TextButton")
+local PrisonLifeRemastered = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
@@ -16,8 +18,8 @@ CHOPPAHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = CHOPPAHUB
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.Position = UDim2.new(0.528346419, 0, 0.489868909, 0)
-Frame.Size = UDim2.new(0, 420, 0, 282)
+Frame.Position = UDim2.new(0.289763749, 0, 0.165673465, 0)
+Frame.Size = UDim2.new(0, 607, 0, 401)
 
 NAME.Name = "NAME"
 NAME.Parent = Frame
@@ -51,8 +53,8 @@ JailbirdSilentAIm.TextSize = 14.000
 DISCLAIMER.Name = "DISCLAIMER"
 DISCLAIMER.Parent = Frame
 DISCLAIMER.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-DISCLAIMER.Position = UDim2.new(0, 0, 0.170212761, 0)
-DISCLAIMER.Size = UDim2.new(0, 420, 0, 41)
+DISCLAIMER.Position = UDim2.new(0, 0, 0.170212746, 0)
+DISCLAIMER.Size = UDim2.new(0, 607, 0, 41)
 DISCLAIMER.Font = Enum.Font.SourceSans
 DISCLAIMER.Text = "NO SCRIPTS ARE MINE"
 DISCLAIMER.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -61,8 +63,8 @@ DISCLAIMER.TextSize = 14.000
 Discord.Name = "Discord"
 Discord.Parent = Frame
 Discord.BackgroundColor3 = Color3.fromRGB(85, 0, 127)
-Discord.Position = UDim2.new(0.571428597, 0, 0, 0)
-Discord.Size = UDim2.new(0, 180, 0, 48)
+Discord.Position = UDim2.new(0.691692114, 0, 0, 0)
+Discord.Size = UDim2.new(0, 187, 0, 48)
 Discord.Font = Enum.Font.SourceSans
 Discord.Text = "Having issues? DM 6ackshots 6148"
 Discord.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -71,8 +73,8 @@ Discord.TextSize = 14.000
 Jailbreak.Name = "Jailbreak"
 Jailbreak.Parent = Frame
 Jailbreak.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-Jailbreak.Position = UDim2.new(0.65476191, 0, 0.315602839, 0)
-Jailbreak.Size = UDim2.new(0, 145, 0, 47)
+Jailbreak.Position = UDim2.new(0.333509862, 0, 0.315602809, 0)
+Jailbreak.Size = UDim2.new(0, 200, 0, 47)
 Jailbreak.Font = Enum.Font.SourceSans
 Jailbreak.Text = "JAILBREAK SCRIPT"
 Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -88,9 +90,28 @@ PFSILENAIM.Text = "PHANTOM FORCES SILENT AIM"
 PFSILENAIM.TextColor3 = Color3.fromRGB(255, 255, 255)
 PFSILENAIM.TextSize = 14.000
 
+PrisonLifeRemastered.Name = "Prison Life Remastered"
+PrisonLifeRemastered.Parent = Frame
+PrisonLifeRemastered.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
+PrisonLifeRemastered.Position = UDim2.new(0.334431618, 0, 0.506234407, 0)
+PrisonLifeRemastered.Size = UDim2.new(0, 200, 0, 50)
+PrisonLifeRemastered.Font = Enum.Font.SourceSans
+PrisonLifeRemastered.Text = "Prison Life Remastered"
+PrisonLifeRemastered.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLifeRemastered.TextSize = 14.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.367380559, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 196, 0, 48)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "All scripts are tested & safe to use"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
 -- Scripts:
 
-local function HWJO_fake_script() -- Frame.Drag 
+local function XMLYL_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -133,8 +154,8 @@ local function HWJO_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(HWJO_fake_script)()
-local function BMWJ_fake_script() -- HTTPSPYSCRIPT.LocalScript 
+coroutine.wrap(XMLYL_fake_script)()
+local function BAQXLUY_fake_script() -- HTTPSPYSCRIPT.LocalScript 
 	local script = Instance.new('LocalScript', HTTPSPYSCRIPT)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -143,24 +164,24 @@ local function BMWJ_fake_script() -- HTTPSPYSCRIPT.LocalScript
 	
 	
 end
-coroutine.wrap(BMWJ_fake_script)()
-local function HDRGG_fake_script() -- JailbirdSilentAIm.LocalScript 
+coroutine.wrap(BAQXLUY_fake_script)()
+local function LCIZHR_fake_script() -- JailbirdSilentAIm.LocalScript 
 	local script = Instance.new('LocalScript', JailbirdSilentAIm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
 	end)
 end
-coroutine.wrap(HDRGG_fake_script)()
-local function JWLVPWZ_fake_script() -- Jailbreak.LocalScript 
+coroutine.wrap(LCIZHR_fake_script)()
+local function DICPF_fake_script() -- Jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', Jailbreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
 	end)
 end
-coroutine.wrap(JWLVPWZ_fake_script)()
-local function VGJJ_fake_script() -- PFSILENAIM.LocalScript 
+coroutine.wrap(DICPF_fake_script)()
+local function CLSZ_fake_script() -- PFSILENAIM.LocalScript 
 	local script = Instance.new('LocalScript', PFSILENAIM)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -169,4 +190,12 @@ local function VGJJ_fake_script() -- PFSILENAIM.LocalScript
 	
 	
 end
-coroutine.wrap(VGJJ_fake_script)()
+coroutine.wrap(CLSZ_fake_script)()
+local function ATTS_fake_script() -- PrisonLifeRemastered.LocalScript 
+	local script = Instance.new('LocalScript', PrisonLifeRemastered)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Donaldish/PrisonLifeRemastered/main/plr.lua"))()
+	end)
+end
+coroutine.wrap(ATTS_fake_script)()
