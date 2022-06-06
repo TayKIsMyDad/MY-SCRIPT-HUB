@@ -12,8 +12,6 @@ local TextLabel = Instance.new("TextLabel")
 local discordserver = Instance.new("TextLabel")
 local Open = Instance.new("TextButton")
 
---Properties:
-
 ChoppaHubv02.Name = "Choppa Hub v 0.2"
 ChoppaHubv02.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ChoppaHubv02.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -23,6 +21,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.Position = UDim2.new(0.185157001, 0, 0.107104547, 0)
 Frame.Size = UDim2.new(0, 799, 0, 627)
+Frame.Visible = false
 
 Close.Name = "Close"
 Close.Parent = Frame
@@ -140,7 +139,7 @@ Open.TextWrapped = true
 
 -- Scripts:
 
-local function EEUA_fake_script() -- Frame.LocalScript 
+local function LHYACH_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -157,8 +156,8 @@ local function EEUA_fake_script() -- Frame.LocalScript
 		frame.Visible = false
 	end)
 end
-coroutine.wrap(EEUA_fake_script)()
-local function SPYG_fake_script() -- httpspy.LocalScript 
+coroutine.wrap(LHYACH_fake_script)()
+local function DHMV_fake_script() -- httpspy.LocalScript 
 	local script = Instance.new('LocalScript', httpspy)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -166,8 +165,8 @@ local function SPYG_fake_script() -- httpspy.LocalScript
 	end)
 	
 end
-coroutine.wrap(SPYG_fake_script)()
-local function ENVL_fake_script() -- Jailbird.LocalScript 
+coroutine.wrap(DHMV_fake_script)()
+local function NZVTNYF_fake_script() -- Jailbird.LocalScript 
 	local script = Instance.new('LocalScript', Jailbird)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -175,16 +174,16 @@ local function ENVL_fake_script() -- Jailbird.LocalScript
 	end)
 	
 end
-coroutine.wrap(ENVL_fake_script)()
-local function PUKY_fake_script() -- infiniteYield.LocalScript 
+coroutine.wrap(NZVTNYF_fake_script)()
+local function UNSHV_fake_script() -- infiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', infiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(PUKY_fake_script)()
-local function OMOU_fake_script() -- Jailbreak.LocalScript 
+coroutine.wrap(UNSHV_fake_script)()
+local function MZMN_fake_script() -- Jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', Jailbreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -192,8 +191,8 @@ local function OMOU_fake_script() -- Jailbreak.LocalScript
 	end)
 	
 end
-coroutine.wrap(OMOU_fake_script)()
-local function IHEXXXF_fake_script() -- PrisonLifeRemastered.LocalScript 
+coroutine.wrap(MZMN_fake_script)()
+local function PTPXK_fake_script() -- PrisonLifeRemastered.LocalScript 
 	local script = Instance.new('LocalScript', PrisonLifeRemastered)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -201,8 +200,8 @@ local function IHEXXXF_fake_script() -- PrisonLifeRemastered.LocalScript
 	end)
 	
 end
-coroutine.wrap(IHEXXXF_fake_script)()
-local function MQCVLPF_fake_script() -- PhantomForces.LocalScript 
+coroutine.wrap(PTPXK_fake_script)()
+local function GSPRXJJ_fake_script() -- PhantomForces.LocalScript 
 	local script = Instance.new('LocalScript', PhantomForces)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -211,8 +210,8 @@ local function MQCVLPF_fake_script() -- PhantomForces.LocalScript
 	
 	
 end
-coroutine.wrap(MQCVLPF_fake_script)()
-local function OIYBFS_fake_script() -- Frame.Drag 
+coroutine.wrap(GSPRXJJ_fake_script)()
+local function ACZVB_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -255,8 +254,8 @@ local function OIYBFS_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(OIYBFS_fake_script)()
-local function SXVC_fake_script() -- Open.Drag 
+coroutine.wrap(ACZVB_fake_script)()
+local function EXLG_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -299,4 +298,4 @@ local function SXVC_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(SXVC_fake_script)()
+coroutine.wrap(EXLG_fake_script)()
