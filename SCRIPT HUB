@@ -9,6 +9,7 @@ local Jailbreak = Instance.new("TextButton")
 local PrisonLifeRemastered = Instance.new("TextButton")
 local PhantomForces = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
+local discordserver = Instance.new("TextLabel")
 local Open = Instance.new("TextButton")
 
 --Properties:
@@ -21,7 +22,6 @@ Frame.Parent = ChoppaHubv02
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.Position = UDim2.new(0.246574327, 0, 0.0701557994, 0)
 Frame.Size = UDim2.new(0, 799, 0, 627)
-Frame.Visible = false
 
 Close.Name = "Close"
 Close.Parent = Frame
@@ -40,7 +40,7 @@ Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
 Name.Size = UDim2.new(0, 284, 0, 59)
 Name.Font = Enum.Font.SourceSans
-Name.Text = "Choppa Exploit Hub"
+Name.Text = "Choppas Exploit Hub"
 Name.TextColor3 = Color3.fromRGB(255, 255, 255)
 Name.TextSize = 41.000
 
@@ -114,6 +114,17 @@ TextLabel.Text = "All scripts are tested and safe"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 
+discordserver.Name = "discord server"
+discordserver.Parent = Frame
+discordserver.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+discordserver.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discordserver.Position = UDim2.new(0, 0, 0.95693779, 0)
+discordserver.Size = UDim2.new(0, 443, 0, 27)
+discordserver.Font = Enum.Font.SourceSans
+discordserver.Text = "https://discord.gg/XPmKXVCH < Share your script here, and report issues with this hub"
+discordserver.TextColor3 = Color3.fromRGB(255, 255, 255)
+discordserver.TextSize = 14.000
+
 Open.Name = "Open"
 Open.Parent = ChoppaHubv02
 Open.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
@@ -128,7 +139,7 @@ Open.TextWrapped = true
 
 -- Scripts:
 
-local function TZSXIDZ_fake_script() -- Frame.LocalScript 
+local function YQKJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local frame = script.Parent
@@ -145,8 +156,8 @@ local function TZSXIDZ_fake_script() -- Frame.LocalScript
 		frame.Visible = false
 	end)
 end
-coroutine.wrap(TZSXIDZ_fake_script)()
-local function UQATUH_fake_script() -- httpspy.LocalScript 
+coroutine.wrap(YQKJ_fake_script)()
+local function YJZD_fake_script() -- httpspy.LocalScript 
 	local script = Instance.new('LocalScript', httpspy)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -154,8 +165,8 @@ local function UQATUH_fake_script() -- httpspy.LocalScript
 	end)
 	
 end
-coroutine.wrap(UQATUH_fake_script)()
-local function SGOX_fake_script() -- Jailbird.LocalScript 
+coroutine.wrap(YJZD_fake_script)()
+local function CIVZF_fake_script() -- Jailbird.LocalScript 
 	local script = Instance.new('LocalScript', Jailbird)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -163,16 +174,16 @@ local function SGOX_fake_script() -- Jailbird.LocalScript
 	end)
 	
 end
-coroutine.wrap(SGOX_fake_script)()
-local function FYGOA_fake_script() -- infiniteYield.LocalScript 
+coroutine.wrap(CIVZF_fake_script)()
+local function RNRA_fake_script() -- infiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', infiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(FYGOA_fake_script)()
-local function IGGU_fake_script() -- Jailbreak.LocalScript 
+coroutine.wrap(RNRA_fake_script)()
+local function FENDGH_fake_script() -- Jailbreak.LocalScript 
 	local script = Instance.new('LocalScript', Jailbreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -180,8 +191,8 @@ local function IGGU_fake_script() -- Jailbreak.LocalScript
 	end)
 	
 end
-coroutine.wrap(IGGU_fake_script)()
-local function NGVXYE_fake_script() -- PrisonLifeRemastered.LocalScript 
+coroutine.wrap(FENDGH_fake_script)()
+local function NPKRW_fake_script() -- PrisonLifeRemastered.LocalScript 
 	local script = Instance.new('LocalScript', PrisonLifeRemastered)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -189,8 +200,8 @@ local function NGVXYE_fake_script() -- PrisonLifeRemastered.LocalScript
 	end)
 	
 end
-coroutine.wrap(NGVXYE_fake_script)()
-local function ROCEI_fake_script() -- PhantomForces.LocalScript 
+coroutine.wrap(NPKRW_fake_script)()
+local function NMTMZPV_fake_script() -- PhantomForces.LocalScript 
 	local script = Instance.new('LocalScript', PhantomForces)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -199,8 +210,8 @@ local function ROCEI_fake_script() -- PhantomForces.LocalScript
 	
 	
 end
-coroutine.wrap(ROCEI_fake_script)()
-local function TAFSPK_fake_script() -- Frame.Drag 
+coroutine.wrap(NMTMZPV_fake_script)()
+local function HGOJLE_fake_script() -- Frame.Drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -243,8 +254,8 @@ local function TAFSPK_fake_script() -- Frame.Drag
 		end
 	end)
 end
-coroutine.wrap(TAFSPK_fake_script)()
-local function AOCMC_fake_script() -- Open.Drag 
+coroutine.wrap(HGOJLE_fake_script)()
+local function AWZBWAW_fake_script() -- Open.Drag 
 	local script = Instance.new('LocalScript', Open)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -287,4 +298,4 @@ local function AOCMC_fake_script() -- Open.Drag
 		end
 	end)
 end
-coroutine.wrap(AOCMC_fake_script)()
+coroutine.wrap(AWZBWAW_fake_script)()
