@@ -1,301 +1,234 @@
-local ChoppaHubv02 = Instance.new("ScreenGui")
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
-local Close = Instance.new("TextButton")
-local Name = Instance.new("TextBox")
-local httpspy = Instance.new("TextButton")
+local Name = Instance.new("TextLabel")
+local credit = Instance.new("TextLabel")
+local information = Instance.new("TextLabel")
+local discord = Instance.new("TextButton")
+local PHANTOMFORCES = Instance.new("TextButton")
 local Jailbird = Instance.new("TextButton")
-local infiniteYield = Instance.new("TextButton")
-local Jailbreak = Instance.new("TextButton")
-local PrisonLifeRemastered = Instance.new("TextButton")
-local PhantomForces = Instance.new("TextButton")
-local TextLabel = Instance.new("TextLabel")
-local discordserver = Instance.new("TextLabel")
-local Open = Instance.new("TextButton")
+local InfiniteYield = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
 
-ChoppaHubv02.Name = "Choppa Hub v 0.2"
-ChoppaHubv02.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ChoppaHubv02.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+--Properties:
 
-Frame.Parent = ChoppaHubv02
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.Position = UDim2.new(0.185157001, 0, 0.107104547, 0)
-Frame.Size = UDim2.new(0, 799, 0, 627)
+Frame.Position = UDim2.new(0.27652508, 0, 0.0751441941, 0)
+Frame.Size = UDim2.new(0, 672, 0, 578)
 Frame.Visible = false
-
-Close.Name = "Close"
-Close.Parent = Frame
-Close.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-Close.BorderSizePixel = 0
-Close.Position = UDim2.new(0.919452369, 0, 0, 0)
-Close.Size = UDim2.new(0, 64, 0, 50)
-Close.Text = "Close"
-Close.TextColor3 = Color3.fromRGB(255, 255, 255)
-Close.TextScaled = true
-Close.TextSize = 14.000
-Close.TextWrapped = true
 
 Name.Name = "Name"
 Name.Parent = Frame
-Name.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-Name.Size = UDim2.new(0, 284, 0, 59)
+Name.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Name.Size = UDim2.new(0, 231, 0, 50)
 Name.Font = Enum.Font.SourceSans
 Name.Text = "Choppas Exploit Hub"
-Name.TextColor3 = Color3.fromRGB(255, 255, 255)
-Name.TextSize = 41.000
+Name.TextColor3 = Color3.fromRGB(0, 0, 0)
+Name.TextSize = 30.000
 
-httpspy.Name = "http spy"
-httpspy.Parent = Frame
-httpspy.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-httpspy.Position = UDim2.new(0, 0, 0.145135567, 0)
-httpspy.Size = UDim2.new(0, 107, 0, 38)
-httpspy.Font = Enum.Font.SourceSans
-httpspy.Text = "HTTP SPY"
-httpspy.TextColor3 = Color3.fromRGB(255, 255, 255)
-httpspy.TextSize = 14.000
+credit.Name = "credit"
+credit.Parent = Name
+credit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+credit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+credit.Position = UDim2.new(1.03571427, 0, 0, 0)
+credit.Size = UDim2.new(0, 212, 0, 50)
+credit.Font = Enum.Font.SourceSans
+credit.Text = "No scripts are mine."
+credit.TextColor3 = Color3.fromRGB(255, 255, 255)
+credit.TextSize = 14.000
+
+information.Name = "information"
+information.Parent = Name
+information.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+information.BorderColor3 = Color3.fromRGB(0, 0, 0)
+information.Position = UDim2.new(2.04288411, 0, 0, 0)
+information.Size = UDim2.new(0, 200, 0, 50)
+information.Font = Enum.Font.SourceSans
+information.Text = "All scripts are tested & safe to use"
+information.TextColor3 = Color3.fromRGB(255, 255, 255)
+information.TextSize = 14.000
+
+discord.Name = "discord"
+discord.Parent = Frame
+discord.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discord.Position = UDim2.new(0, 0, 0.929065764, 0)
+discord.Size = UDim2.new(0, 220, 0, 41)
+discord.Font = Enum.Font.SourceSans
+discord.Text = "discord.gg/ub2pYHBN9s"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextSize = 20.000
+
+PHANTOMFORCES.Name = "PHANTOM FORCES"
+PHANTOMFORCES.Parent = Frame
+PHANTOMFORCES.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+PHANTOMFORCES.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PHANTOMFORCES.Position = UDim2.new(0, 0, 0.153979242, 0)
+PHANTOMFORCES.Size = UDim2.new(0, 200, 0, 50)
+PHANTOMFORCES.Font = Enum.Font.SourceSans
+PHANTOMFORCES.Text = "Phantom Forces Silent AIm (NO ESP)"
+PHANTOMFORCES.TextColor3 = Color3.fromRGB(255, 255, 255)
+PHANTOMFORCES.TextSize = 14.000
 
 Jailbird.Name = "Jailbird"
 Jailbird.Parent = Frame
-Jailbird.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-Jailbird.Position = UDim2.new(0, 0, 0.251993626, 0)
-Jailbird.Size = UDim2.new(0, 107, 0, 40)
+Jailbird.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Jailbird.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Jailbird.Position = UDim2.new(0, 0, 0.271626294, 0)
+Jailbird.Size = UDim2.new(0, 200, 0, 50)
 Jailbird.Font = Enum.Font.SourceSans
-Jailbird.Text = "Jailbird Silent Aim"
+Jailbird.Text = "Jailbird Silent AIm + ESP"
 Jailbird.TextColor3 = Color3.fromRGB(255, 255, 255)
 Jailbird.TextSize = 14.000
 
-infiniteYield.Name = "infinite Yield"
-infiniteYield.Parent = Frame
-infiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-infiniteYield.Position = UDim2.new(0, 0, 0.347687393, 0)
-infiniteYield.Size = UDim2.new(0, 107, 0, 38)
-infiniteYield.Font = Enum.Font.SourceSans
-infiniteYield.Text = "Infinite Yield"
-infiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
-infiniteYield.TextSize = 14.000
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Frame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.Position = UDim2.new(0, 0, 0.404844284, 0)
+InfiniteYield.Size = UDim2.new(0, 200, 0, 50)
+InfiniteYield.Font = Enum.Font.SourceSans
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.TextSize = 14.000
 
-Jailbreak.Name = "Jailbreak"
-Jailbreak.Parent = Frame
-Jailbreak.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-Jailbreak.Position = UDim2.new(0, 0, 0.441786289, 0)
-Jailbreak.Size = UDim2.new(0, 107, 0, 34)
-Jailbreak.Font = Enum.Font.SourceSans
-Jailbreak.Text = "Jailbreak"
-Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
-Jailbreak.TextSize = 14.000
+PrisonLife.Name = "Prison Life"
+PrisonLife.Parent = Frame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+PrisonLife.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.Position = UDim2.new(0, 0, 0.541522503, 0)
+PrisonLife.Size = UDim2.new(0, 200, 0, 50)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life Remastered"
+PrisonLife.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.TextSize = 14.000
 
-PrisonLifeRemastered.Name = "Prison Life Remastered"
-PrisonLifeRemastered.Parent = Frame
-PrisonLifeRemastered.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-PrisonLifeRemastered.Position = UDim2.new(0, 0, 0.547049463, 0)
-PrisonLifeRemastered.Size = UDim2.new(0, 121, 0, 34)
-PrisonLifeRemastered.Font = Enum.Font.SourceSans
-PrisonLifeRemastered.Text = "Prison Life Remastered"
-PrisonLifeRemastered.TextColor3 = Color3.fromRGB(255, 255, 255)
-PrisonLifeRemastered.TextSize = 14.000
-
-PhantomForces.Name = "Phantom Forces"
-PhantomForces.Parent = Frame
-PhantomForces.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-PhantomForces.Position = UDim2.new(0, 0, 0.637958527, 0)
-PhantomForces.Size = UDim2.new(0, 107, 0, 31)
-PhantomForces.Font = Enum.Font.SourceSans
-PhantomForces.Text = "Phantom Forces"
-PhantomForces.TextColor3 = Color3.fromRGB(255, 255, 255)
-PhantomForces.TextSize = 14.000
-
-TextLabel.Parent = Frame
-TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.Position = UDim2.new(0.415519416, 0, 0.00637958525, 0)
-TextLabel.Size = UDim2.new(0, 200, 0, 50)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "All scripts are tested and safe"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 14.000
-
-discordserver.Name = "discord server"
-discordserver.Parent = Frame
-discordserver.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-discordserver.BorderColor3 = Color3.fromRGB(0, 0, 0)
-discordserver.Position = UDim2.new(0, 0, 0.95693779, 0)
-discordserver.Size = UDim2.new(0, 443, 0, 27)
-discordserver.Font = Enum.Font.SourceSans
-discordserver.Text = "https://discord.gg/XPmKXVCH < Share your script here, and report issues with this hub"
-discordserver.TextColor3 = Color3.fromRGB(255, 255, 255)
-discordserver.TextSize = 14.000
-
-Open.Name = "Open"
-Open.Parent = ChoppaHubv02
-Open.BackgroundColor3 = Color3.fromRGB(0, 0, 127)
-Open.Position = UDim2.new(-0.000612424687, 0, 0.818417609, 0)
-Open.Size = UDim2.new(0, 200, 0, 63)
-Open.Font = Enum.Font.SourceSans
-Open.Text = "Open"
-Open.TextColor3 = Color3.fromRGB(255, 255, 255)
-Open.TextScaled = true
-Open.TextSize = 14.000
-Open.TextWrapped = true
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = Frame
+Arsenal.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Arsenal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.Position = UDim2.new(0, 0, 0.692041516, 0)
+Arsenal.Size = UDim2.new(0, 200, 0, 50)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal (Owl Hub)"
+Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.TextSize = 14.000
 
 -- Scripts:
 
-local function LHYACH_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	local frame = script.Parent
-	local close = frame:WaitForChild("Close")
-	local open = frame.Parent:WaitForChild("Open")
-	
-	open.MouseButton1Click:Connect(function()
-		open.Visible = false
-		frame.Visible = true
-	end)
-	
-	close.MouseButton1Click:Connect(function()
-		open.Visible = true
-		frame.Visible = false
-	end)
-end
-coroutine.wrap(LHYACH_fake_script)()
-local function DHMV_fake_script() -- httpspy.LocalScript 
-	local script = Instance.new('LocalScript', httpspy)
+local function LLJTIBF_fake_script() -- discord.LocalScript 
+	local script = Instance.new('LocalScript', discord)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/batusz/main/roblox/advanced_http_spy'))()
+		loadstring(discord.gg/Nrb8rf9P)
 	end)
-	
 end
-coroutine.wrap(DHMV_fake_script)()
-local function NZVTNYF_fake_script() -- Jailbird.LocalScript 
+coroutine.wrap(LLJTIBF_fake_script)()
+local function STBVIR_fake_script() -- PHANTOMFORCES.LocalScript 
+	local script = Instance.new('LocalScript', PHANTOMFORCES)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))()
+	end)
+end
+coroutine.wrap(STBVIR_fake_script)()
+local function UJHUPT_fake_script() -- Jailbird.LocalScript 
 	local script = Instance.new('LocalScript', Jailbird)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
 	end)
-	
 end
-coroutine.wrap(NZVTNYF_fake_script)()
-local function UNSHV_fake_script() -- infiniteYield.LocalScript 
-	local script = Instance.new('LocalScript', infiniteYield)
+coroutine.wrap(UJHUPT_fake_script)()
+local function USBUK_fake_script() -- InfiniteYield.LocalScript 
+	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
-end
-coroutine.wrap(UNSHV_fake_script)()
-local function MZMN_fake_script() -- Jailbreak.LocalScript 
-	local script = Instance.new('LocalScript', Jailbreak)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))();
-	end)
 	
 end
-coroutine.wrap(MZMN_fake_script)()
-local function PTPXK_fake_script() -- PrisonLifeRemastered.LocalScript 
-	local script = Instance.new('LocalScript', PrisonLifeRemastered)
+coroutine.wrap(USBUK_fake_script)()
+local function GMAJLLO_fake_script() -- PrisonLife.LocalScript 
+	local script = Instance.new('LocalScript', PrisonLife)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Donaldish/PrisonLifeRemastered/main/plr.lua"))()
 	end)
-	
 end
-coroutine.wrap(PTPXK_fake_script)()
-local function GSPRXJJ_fake_script() -- PhantomForces.LocalScript 
-	local script = Instance.new('LocalScript', PhantomForces)
+coroutine.wrap(GMAJLLO_fake_script)()
+local function GIAMN_fake_script() -- Arsenal.LocalScript 
+	local script = Instance.new('LocalScript', Arsenal)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 	end)
 	
-	
 end
-coroutine.wrap(GSPRXJJ_fake_script)()
-local function ACZVB_fake_script() -- Frame.Drag 
+coroutine.wrap(GIAMN_fake_script)()
+local function MDTVHP_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
-	local UserInputService = game:GetService("UserInputService")
+	function dragify(Main)
+	dragToggle = nil
+	dragSpeed = 0.95 -- You can edit this.
+	dragInput = nil
+	dragStart = nil
+	dragPos = nil
 	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	function updateInput(input)
+	Delta = input.Position - dragStart
+	Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+	game:GetService("TweenService"):Create(Main, TweenInfo.new(.25), {Position = Position}):Play()
 	end
 	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-			
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
+	Main.InputBegan:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+	dragToggle = true
+	dragStart = input.Position
+	startPos = Main.Position
+	input.Changed:Connect(function()
+	if (input.UserInputState == Enum.UserInputState.End) then
+	dragToggle = false
+	end
+	end)
+	end
 	end)
 	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
+	Main.InputChanged:Connect(function(input)
+	if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+	dragInput = input
+	end
 	end)
 	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
+	game:GetService("UserInputService").InputChanged:Connect(function(input)
+	if (input == dragInput and dragToggle) then
+	updateInput(input)
+	end
 	end)
+	end
+	
+	dragify(script.Parent)
 end
-coroutine.wrap(ACZVB_fake_script)()
-local function EXLG_fake_script() -- Open.Drag 
-	local script = Instance.new('LocalScript', Open)
+coroutine.wrap(MDTVHP_fake_script)()
+local function OBLC_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
 
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	function onKeyPress(inputObject, gameProcessedEvent)
+		if not gameProcessedEvent then
+	    if inputObject.KeyCode == Enum.KeyCode.RightAlt  then 
+			script.Parent.Frame.Visible = not script.Parent.Frame.Visible
+			end
+		end
 	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-			
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
+	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 end
-coroutine.wrap(EXLG_fake_script)()
+coroutine.wrap(OBLC_fake_script)()
