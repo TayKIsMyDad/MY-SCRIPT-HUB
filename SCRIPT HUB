@@ -1,3 +1,4 @@
+-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
@@ -13,6 +14,7 @@ local Jailbird = Instance.new("TextButton")
 local InfiniteYield = Instance.new("TextButton")
 local PrisonLife = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
@@ -22,7 +24,6 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Frame.Position = UDim2.new(0.27652508, 0, 0.0751441941, 0)
 Frame.Size = UDim2.new(0, 672, 0, 578)
-Frame.Visible = false
 
 Name.Name = "Name"
 Name.Parent = Frame
@@ -41,7 +42,7 @@ credit.BorderColor3 = Color3.fromRGB(0, 0, 0)
 credit.Position = UDim2.new(1.03571427, 0, 0, 0)
 credit.Size = UDim2.new(0, 212, 0, 50)
 credit.Font = Enum.Font.SourceSans
-credit.Text = "No scripts are mine."
+credit.Text = "No scripts are mine. "
 credit.TextColor3 = Color3.fromRGB(255, 255, 255)
 credit.TextSize = 14.000
 
@@ -122,33 +123,43 @@ Arsenal.Text = "Arsenal (Owl Hub)"
 Arsenal.TextColor3 = Color3.fromRGB(255, 255, 255)
 Arsenal.TextSize = 14.000
 
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.75, 0, 0.929065764, 0)
+TextLabel.Size = UDim2.new(0, 167, 0, 41)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Right Alt to open and close"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
 -- Scripts:
 
-local function LLJTIBF_fake_script() -- discord.LocalScript 
+local function SGEQSWK_fake_script() -- discord.LocalScript 
 	local script = Instance.new('LocalScript', discord)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(discord.gg/Nrb8rf9P)
 	end)
 end
-coroutine.wrap(LLJTIBF_fake_script)()
-local function STBVIR_fake_script() -- PHANTOMFORCES.LocalScript 
+coroutine.wrap(SGEQSWK_fake_script)()
+local function VQOWT_fake_script() -- PHANTOMFORCES.LocalScript 
 	local script = Instance.new('LocalScript', PHANTOMFORCES)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/purple-haze-pf/main/loader.lua"))()
 	end)
 end
-coroutine.wrap(STBVIR_fake_script)()
-local function UJHUPT_fake_script() -- Jailbird.LocalScript 
+coroutine.wrap(VQOWT_fake_script)()
+local function MGBOCD_fake_script() -- Jailbird.LocalScript 
 	local script = Instance.new('LocalScript', Jailbird)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/1iseo/rbx/main/jailbird/jailbird.lua"))()
 	end)
 end
-coroutine.wrap(UJHUPT_fake_script)()
-local function USBUK_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(MGBOCD_fake_script)()
+local function EDDF_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -156,16 +167,16 @@ local function USBUK_fake_script() -- InfiniteYield.LocalScript
 	end)
 	
 end
-coroutine.wrap(USBUK_fake_script)()
-local function GMAJLLO_fake_script() -- PrisonLife.LocalScript 
+coroutine.wrap(EDDF_fake_script)()
+local function UFLRC_fake_script() -- PrisonLife.LocalScript 
 	local script = Instance.new('LocalScript', PrisonLife)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Donaldish/PrisonLifeRemastered/main/plr.lua"))()
 	end)
 end
-coroutine.wrap(GMAJLLO_fake_script)()
-local function GIAMN_fake_script() -- Arsenal.LocalScript 
+coroutine.wrap(UFLRC_fake_script)()
+local function YCDMTRC_fake_script() -- Arsenal.LocalScript 
 	local script = Instance.new('LocalScript', Arsenal)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -173,8 +184,8 @@ local function GIAMN_fake_script() -- Arsenal.LocalScript
 	end)
 	
 end
-coroutine.wrap(GIAMN_fake_script)()
-local function MDTVHP_fake_script() -- Frame.drag 
+coroutine.wrap(YCDMTRC_fake_script)()
+local function MNZNRL_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	function dragify(Main)
@@ -218,8 +229,8 @@ local function MDTVHP_fake_script() -- Frame.drag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(MDTVHP_fake_script)()
-local function OBLC_fake_script() -- ScreenGui.LocalScript 
+coroutine.wrap(MNZNRL_fake_script)()
+local function MURN_fake_script() -- ScreenGui.LocalScript 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	function onKeyPress(inputObject, gameProcessedEvent)
@@ -231,4 +242,4 @@ local function OBLC_fake_script() -- ScreenGui.LocalScript
 	end
 	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
 end
-coroutine.wrap(OBLC_fake_script)()
+coroutine.wrap(MURN_fake_script)()
